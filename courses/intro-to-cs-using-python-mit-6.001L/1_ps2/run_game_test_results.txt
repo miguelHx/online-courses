@@ -1,0 +1,1178 @@
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Good guess: h*
+------
+You have 10 guesses left.
+Available Letters: abcdefgijklmnopqrstuvwxyz
+Oops! That letter is not in my word: h*
+------
+You have 9 guesses left.
+Available Letters: abcdfgijklmnopqrstuvwxyz
+Good guess: hi
+------
+Congratulations, you won!
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: **
+------
+You have 8 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Oops! That letter is not in my word: **
+------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Good guess: *i
+------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 5 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 2 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Oops! That letter is not in my word: *i
+Sorry, you ran out of guesses. The word was hi
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: ********
+------
+You have 8 guesses left.
+Available Letters: abcdefghijlmnopqrstuvwxyz
+Good guess: w*******
+------
+You have 8 guesses left.
+Available Letters: abcdefghijlmnopqrstuvxyz
+Good guess: wi******
+------
+You have 8 guesses left.
+Available Letters: abcdefghjlmnopqrstuvxyz
+Good guess: wil*****
+------
+You have 8 guesses left.
+Available Letters: abcdefghjmnopqrstuvxyz
+Good guess: wild***d
+------
+You have 8 guesses left.
+Available Letters: abcefghjmnopqrstuvxyz
+Good guess: wildc**d
+------
+You have 8 guesses left.
+Available Letters: abefghjmnopqrstuvxyz
+Letter revealed: a
+wildca*d
+------
+You have 5 guesses left.
+Available Letters: befghjmnopqrstuvxyz
+Letter revealed: r
+wildcard
+------
+Congratulations, you won!
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Good guess: h*
+------
+You have 10 guesses left.
+Available Letters: abcdefgijklmnopqrstuvwxyz
+Oops! That letter is not in my word: h*
+------
+You have 9 guesses left.
+Available Letters: abcdfgijklmnopqrstuvwxyz
+Good guess: hi
+------
+Congratulations, you won!
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: **
+------
+You have 8 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Oops! That letter is not in my word: **
+------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Good guess: *i
+------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 5 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Oops! That letter is not in my word: *i
+------
+You have 2 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Oops! That letter is not in my word: *i
+Sorry, you ran out of guesses. The word was hi
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long.
+------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: ********
+------
+You have 8 guesses left.
+Available Letters: abcdefghijlmnopqrstuvwxyz
+Good guess: w*******
+------
+You have 8 guesses left.
+Available Letters: abcdefghijlmnopqrstuvxyz
+Good guess: wi******
+------
+You have 8 guesses left.
+Available Letters: abcdefghjlmnopqrstuvxyz
+Good guess: wil*****
+------
+You have 8 guesses left.
+Available Letters: abcdefghjmnopqrstuvxyz
+Good guess: wild***d
+------
+You have 8 guesses left.
+Available Letters: abcefghjmnopqrstuvxyz
+Good guess: wildc**d
+------
+You have 8 guesses left.
+Available Letters: abefghjmnopqrstuvxyz
+Letter revealed: a
+wildca*d
+------
+You have 5 guesses left.
+Available Letters: befghjmnopqrstuvxyz
+Letter revealed: r
+wildcard
+------
+Congratulations, you won!
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['h', 'e', 'i']
+************************
+YOUR OUTPUT:
+************************
+Loading word list from file...
+  55900 words loaded.
+Welcome to Hangman!
+I'm thinking of a word that is 2 letters long
+--------------------------------------------
+You have 10 guesses left
+Available letters:abcdefghijklmnopqrstuvwxyz
+Good guess: h*
+--------------------------------------------
+You won!!!
+Your total score for this game is 20
+Thank you for playing
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to Hangman!
+I am thinking of a word that is 2 letters long.
+------
+You have 10 guesses left.
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: h
+Good guess: h*
+------
+You have 10 guesses left.
+Available letters: abcdefgijklmnopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: h*
+------
+You have 8 guesses left.
+Available letters: abcdfgijklmnopqrstuvwxyz
+Please guess a letter: i
+Good guess: hi
+------
+Congratulations, you won!
+Your total score for this game is: 22
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_short_fail
+WORD USED IN TEST: hi
+GUESSED LETTERS IN ORDER OF GUESS: ['n', 'e', 'i', 'm', 'u', 'k', 'l', 'p', 's']
+************************
+YOUR OUTPUT:
+************************
+Welcome to Hangman!
+I'm thinking of a word that is 2 letters long
+--------------------------------------------
+You have 10 guesses left
+Available letters:abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: **
+--------------------------------------------
+You have 9 guesses left
+Available letters:abcdefghijklmopqrstuvwxyz
+Oops! That letter is not in my word: **
+--------------------------------------------
+You have 7 guesses left
+Available letters:abcdfghijklmopqrstuvwxyz
+Good guess: *i
+--------------------------------------------
+You won!!!
+Your total score for this game is 17
+Thank you for playing
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 2 letters long.
+--------------
+You have 10 guesses left.
+Available Letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: n
+Oops! That letter is not in my word: **
+--------------
+You have 9 guesses left.
+Available Letters: abcdefghijklmopqrstuvwxyz
+Please guess a letter: e
+Oops! That letter is not in my word: **
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghijklmopqrstuvwxyz
+Please guess a letter: i
+Good guess: *i
+--------------
+You have 7 guesses left.
+Available Letters: abcdfghjklmopqrstuvwxyz
+Please guess a letter: m
+Oops! That letter is not in my word: *i
+--------------
+You have 6 guesses left.
+Available Letters: abcdfghjklopqrstuvwxyz
+Please guess a letter: u
+Oops! That letter is not in my word: *i
+--------------
+You have 4 guesses left.
+Available Letters: abcdfghjklopqrstvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: *i
+--------------
+You have 3 guesses left.
+Available Letters: abcdfghjlopqrstvwxyz
+Please guess a letter: l
+Oops! That letter is not in my word: *i
+--------------
+You have 2 guesses left.
+Available Letters: abcdfghjopqrstvwxyz
+Please guess a letter: p
+Oops! That letter is not in my word: *i
+--------------
+You have 1 guess left.
+Available Letters: abcdfghjoqrstvwxyz
+Please guess a letter: s
+Oops! That letter is not in my word: *i
+-------
+Sorry, you ran out of guesses. The word was hi
+=============================================================
+
+
+=============================================================
+RESULTS FOR TEST CASE: test_play_game_wildcard
+WORD USED IN TEST: wildcard
+GUESSED LETTERS IN ORDER OF GUESS: ['k', 'w', 'i', 'l', 'd', 'c', '!', '!']
+************************
+YOUR OUTPUT:
+************************
+Welcome to Hangman!
+I'm thinking of a word that is 8 letters long
+--------------------------------------------
+You have 10 guesses left
+Available letters:abcdefghijklmnopqrstuvwxyz
+Oops! That letter is not in my word: ********
+--------------------------------------------
+You have 9 guesses left
+Available letters:abcdefghijlmnopqrstuvwxyz
+Good guess: w*******
+--------------------------------------------
+You won!!!
+Your total score for this game is 37
+Thank you for playing
+
+************************
+POSSIBLE CORRECT OUTPUT:
+************************
+Welcome to hangman!
+I am thinking of a word that is 8 letters long
+------
+You have 10 guesses left
+Available letters: abcdefghijklmnopqrstuvwxyz
+Please guess a letter: k
+Oops! That letter is not in my word: ********
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvwxyz
+Please guess a letter: w
+Good guess: w*******
+------
+You have 9 guesses left
+Available letters: abcdefghijlmnopqrstuvxyz
+Please guess a letter: i
+Good guess: wi******
+------
+You have 9 guesses left
+Available letters: abcdefghjlmnopqrstuvxyz
+Please guess a letter: l
+Good guess: wil*****
+------
+You have 9 guesses left
+Available letters: abcdefghjmnopqrstuvxyz
+Please guess a letter: d
+Good guess: wild***d
+------
+You have 9 guesses left
+Available letters: abcefghjmnopqrstuvxyz
+Please guess a letter: c
+Good guess: wildc**d
+------
+You have 9 guesses left
+Available letters: abefghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: a
+wildca+d
+------
+You have 6 guesses left
+Available letters: befghjmnopqrstuvxyz
+Please guess a letter: !
+Letter revealed: r
+Good guess: wildcard
+------
+Congratulations, you won!
+Your total score for this game is: 55
+
+=============================================================
+
+
