@@ -12,7 +12,7 @@
 (define WIDTH  300)
 (define HEIGHT 500)
 
-(define INVADER-X-SPEED 4)  ;speeds (not velocities) in pixels per tick
+(define INVADER-X-SPEED 1.5)  ;speeds (not velocities) in pixels per tick
 (define INVADER-Y-SPEED 1.5)
 (define TANK-SPEED 2)
 (define MISSILE-SPEED 10)
@@ -154,7 +154,7 @@
 
 (define (tick-game g)
   (make-game (if (= (random INVADE-RATE) 1)
-                 (append-rand-invader (game-invaders g))
+                 (tick-invaders (non-collisions-only-loi (append-rand-invader (game-invaders g)) (game-missiles g)))
                  (tick-invaders (non-collisions-only-loi (game-invaders g) (game-missiles g))))
              (tick-missiles (onscreen-only (non-collisions-only-lom (game-invaders g) (game-missiles g))))
              (tick-tank (game-tank g))))
@@ -226,12 +226,12 @@
 (define (hit? i m)
   (and (within-range?
         (missile-x m)
-        (- (invader-x i) (/ (image-width INVADER) 2))
-        (+ (invader-x i) (/ (image-width INVADER) 2)))
+        (- (invader-x i) HIT-RANGE)
+        (+ (invader-x i) HIT-RANGE))
        (within-range?
-        (missile-y m)
-        (- (invader-y i) (/ (image-height INVADER) 2))
-        (+ (invader-y i) (/ (image-height INVADER) 2)))))
+        (- (missile-y m) (/ (image-height MISSILE) 2))
+        (- (invader-y i) HIT-RANGE)
+        (+ (invader-y i) HIT-RANGE))))
 
 ;; Integer Integer Integer -> Boolean
 ;; checks if first arg is within range of lower bound and upper bound
